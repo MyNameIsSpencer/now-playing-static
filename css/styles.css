@@ -195,3 +195,57 @@ figure {
 .about > p {
   margin: 0;
 }
+
+
+
+
+@media (min-width: 768px) {
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*right: 0;*/
+    height: 100%;
+    width: 9%;
+    display: block;
+  }
+  /*site-nav-list,
+  .footer-nav-list {
+    display: block;
+  }*/
+  .site-nav-item {
+    /*display: block;*/
+    float: none;
+  }
+
+}
+
+
+/*
+site-nav-list,
+.footer-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-nav-item {
+  float: left;
+  width: 20%;
+  height: 60px;
+  padding: 0.75em;
+  font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.6em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.site-nav-item > .fa {
+  font-size: 1.75rem;
+}
+
+*/
+
+
+
+/*BOTTOM*/
