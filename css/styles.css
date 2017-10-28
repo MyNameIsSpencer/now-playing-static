@@ -197,7 +197,7 @@ figure {
 }
 
 
-
+/*BREAKPOINT 768PX*/
 
 @media (min-width: 768px) {
   .site-nav {
@@ -215,18 +215,22 @@ figure {
   }
 
   .site-logo {
+    display: block;
     position: fixed;
-    top: 3px;
-    left: 6px;
-    width: 7%;
-    height: 7%;
+    width: 55px;
+    top: 10px;
+    left: 1.27vw;
+    /*top: 1%;*/
+    /*left: 1%;*/
+    /*width: 55px;*/
+    /*height: 55px;*/
     margin: 0;
     z-index: 200;
   }
 
   .site-nav-list,
   .footer-nav-list {
-    padding-top: 55px;
+    padding-top: 65px;
     text-align: center;
     display: block;
   }
@@ -244,6 +248,56 @@ figure {
   }
 
 }
+
+
+/*BREAKPOINT 992PX*/
+
+@media (min-width: 992px) {
+  .movie-overview {
+    display: none;
+  }
+
+  .site-logo {
+    left: 2vw;
+  }
+
+  .movie {
+    display: inline-block;
+    width: 33%;
+
+  }
+
+  .movie-poster {
+    display: block;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie:first-child {
+    width: 100%;
+  }
+
+  .movie:first-child .movie-backdrop {
+    display: block;
+  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+
+  .movie:first-child .movie-overview {
+    display: block;
+  }
+
+}
+
+
+
+
+
+
 
 /*
 .site-nav-item {
