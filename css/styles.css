@@ -253,6 +253,11 @@ figure {
 /*BREAKPOINT 992PX*/
 
 @media (min-width: 992px) {
+
+  main {
+    font-size: 0;
+  }
+
   .movie-overview {
     display: none;
   }
@@ -263,7 +268,7 @@ figure {
 
   .movie {
     display: inline-block;
-    width: 33%;
+    width: 33.3333%;
 
   }
 
